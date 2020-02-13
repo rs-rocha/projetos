@@ -5,9 +5,7 @@ def exibe_dados(lista):
     print('\nConsulta ao Banco de Dados "academia.db"\n')
     print('Dados da tabela "cadastro"')
     print('-'*35)
-    #cod = "Código"
-    #nome = "Nome"
-    #idade = "Idade"
+
     print(f'{"Código":7} {"Nome":20} {"Idade":>6}')
     print('- '*18)
     for d in lista:
