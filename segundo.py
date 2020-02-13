@@ -1,4 +1,5 @@
 import sqlite3
+
 conector = sqlite3.connect('academia.db')
 cursor = conector.cursor()
 sql = 'select * from cadastro'
